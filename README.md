@@ -1,7 +1,7 @@
 # APS
-# revolutionising nykaa- a shopping experience so good you want to lose all your money
+# Revolutionising nykaa- a shopping experience so good you want to lose all your money
 
-# Swiggy Portfolio
+
 
 <dl>
 <dt>Course Name</dt>
