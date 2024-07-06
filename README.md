@@ -58,26 +58,25 @@ Algorithms:
     -   **Design:** Combine tries and inverted indexes to handle both substring and keyword searches.
     -   **Implementation:** Use tries for substring matching and auto-suggestions as the user types. Use the inverted index for broader keyword searches.
  
-## Inventory Management
+## 2.Inventory Management
 ### Use Case:
-Nykaa needs to track inventory levels in real-time with high accuracy during sales and peak hours.
-Expected Results: Accurate inventory tracking.
-Algorithm: 
+-  Nykaa needs to track inventory levels in real-time with high accuracy during sales and peak hours.
+-  Expected Results: Accurate inventory tracking.
+ Algorithm: 
 **Fenwick Tree (Binary Indexed Tree)**
-Space Complexity: O(N) where N is the number of products.
-Time Complexity: O(log N) for updates and queries.
-Approach: Use a Fenwick Tree to keep track of inventory levels, allowing for efficient updates and queries on stock levels.
+- Space Complexity: O(N) where N is the number of products.
+- Time Complexity: O(log N) for updates and queries.
+**Approach:**
+  - Use a Fenwick Tree to keep track of inventory levels, allowing for efficient updates and queries on stock levels.
    
-## Dynamic Pricing
+## 3.Dynamic Pricing
 ### Use Case:
 **Fibonacci Heap**
 
-Space Complexity: O(N) where N is the number of products.
-Time Complexity:
-
-Insertion: O(1) amortized.
-Decrease Key: O(1) amortized.
-Extract Min: O(log N) amortized.
+- **Space Complexity:** O(N) where N is the number of products.
+- **Time Complexity:**
+- **Insertion:** O(1) amortized.
+- Decrease Key: O(1) amortized.
 Approach:
 
 Representation: Use a Fibonacci heap to manage product prices, with the minimum price at the root.
