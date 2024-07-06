@@ -122,7 +122,7 @@ Expected Results: Fast and accurate order processing.
 Suggested Algorithm: Queue
 Space Complexity: O(N) where N is the number of orders.
 Time Complexity: O(1) for enqueue and dequeue.
-Approach: Use a queue to manage order processing, ensuring orders are processed in the order they are received.
+- Approach: Use a queue to manage order processing, ensuring orders are processed in the order they are received.
 
  ## 8.Delivery Route Optimization
 Feature: Optimize delivery routes for orders.
