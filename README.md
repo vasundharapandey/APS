@@ -43,8 +43,7 @@ Expected Results:
 
  - Search for Face.
  - Show Face Washes, Face Scrubs,  etc...
-
-![image](https://github.com/Kingsman44/aps-portfolio.github.io/assets/58323485/d91fb926-0c6a-4231-ba83-3a1dc6e34307)
+![image](https://github.com/vasundharapandey/APS/assets/105374701/b077d2f0-7ade-4eee-8728-75647e70882b)
 
 
 Algorithms:
