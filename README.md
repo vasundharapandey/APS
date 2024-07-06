@@ -62,8 +62,25 @@ Algorithms:
 ### Use Case:
 Nykaa needs to track inventory levels in real-time with high accuracy during sales and peak hours.
 Expected Results: Accurate inventory tracking.
-Algorithm: Fenwick Tree (Binary Indexed Tree)
+Algorithm: 
+**Fenwick Tree (Binary Indexed Tree)**
 Space Complexity: O(N) where N is the number of products.
 Time Complexity: O(log N) for updates and queries.
 Approach: Use a Fenwick Tree to keep track of inventory levels, allowing for efficient updates and queries on stock levels.
-    
+   
+## Dynamic Pricing
+### Use Case:
+**Fibonacci Heap**
+
+Space Complexity: O(N) where N is the number of products.
+Time Complexity:
+
+Insertion: O(1) amortized.
+Decrease Key: O(1) amortized.
+Extract Min: O(log N) amortized.
+Approach:
+
+Representation: Use a Fibonacci heap to manage product prices, with the minimum price at the root.
+Price Adjustments: Insert and adjust prices using the heap operations. Decrease key operation is used to quickly reduce prices based on demand drops.
+Price Extraction: Extract the minimum price to ensure the most competitive pricing.
+Improvement: The Fibonacci heap offers efficient key operations, making it suitable for frequently adjusting prices based on real-time data.
