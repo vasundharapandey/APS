@@ -59,9 +59,11 @@ Let's dive deeper into each use case, elaborating on the algorithms and their ap
     - **Space Complexity**: O(N), where N is the number of products.
   
   -  Approach: Implement a Fenwick Tree to maintain inventory levels. Each product’s stock update is processed in logarithmic time, ensuring high accuracy even during high-traffic periods.
-  -  <div class="codes">Codes
-    <a href="https://github.com/vasundharapandey/APS/blob/main/codes/Fenwick.cpp">Fenwick</a>
-</div>
+
+
+
+    <div class="codes">Codes
+    <a href="https://github.com/vasundharapandey/APS/blob/main/codes/Fenwick.cpp">Fenwick</a></div>
 
 ### 2. Dynamic Pricing
 
@@ -80,7 +82,10 @@ Let's dive deeper into each use case, elaborating on the algorithms and their ap
       - **Space Complexity:** O(N), where N is the number of products.
 
   - Approach: Use a Fibonacci heap to manage product prices, with the minimum price at the root. Insert new prices or adjust existing ones using heap operations. The decrease key operation is used to quickly reduce prices in response to a drop in demand, ensuring competitive pricing.
-  -  <div class="codes">Codes
+
+ 
+ 
+ <div class="codes">Codes
     <a href="https://github.com/vasundharapandey/APS/blob/main/codes/FibHeap.cpp">Fibonacci Heap</a>
 </div>
 
@@ -98,7 +103,7 @@ Let's dive deeper into each use case, elaborating on the algorithms and their ap
       - Update: O(log N)
     - **Space Complexity**: O(N), where N is the number of products.
   - **Approach**: Build segment trees for various product attributes (price, ratings, etc.). Each segment tree preprocesses the data to enable quick range queries and updates. For instance, filtering products within a certain price range is achieved through a logarithmic time query on the price segment tree, ensuring swift and responsive filtering.
--  <div class="codes">Codes
+ <div class="codes">Codes
     <a href="https://github.com/vasundharapandey/APS/blob/main/codes/SegmentTree.cpp">Segment Tree</a>
 </div>
 
@@ -121,7 +126,10 @@ Let's dive deeper into each use case, elaborating on the algorithms and their ap
        
          - 
   - **Approach**: Use a trie for handling prefix searches and autocomplete, combined with an inverted index to efficiently retrieve products matching broader keyword searches. This hybrid approach ensures quick and relevant recommendations, even with user input variations.
-  - <div class="codes">Codes
+
+
+
+<div class="codes">Codes
     <a href="https://github.com/vasundharapandey/APS/blob/main/codes/isomorphic.cpp">IsoMorphic</a>
      <a href="https://github.com/vasundharapandey/APS/blob/main/codes/inverted.cpp">Inverted</a>
 </div>
