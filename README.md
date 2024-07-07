@@ -17,6 +17,7 @@
 3. [Challenges](#challenges)
 4. [Business Use Cases](#business-use-cases)
 5. [Learnings and Key Takeaways](#learnings-and-key-takeaways)
+6. [References](#References)
 
 ---
 
@@ -189,8 +190,7 @@ Recommend products based on user browsing history.
      Implement a priority queue to manage order processing. Orders are enqueued as they are received and dequeued for processing in the same sequence. This ensures fairness and maintains the order of operations, crucial for a smooth user experience.
 
 <div class="codes">Codes
-    <a href="https://github.com/vasundharapandey/APS/blob/main/codes/pq.cpp">PriorityQueue</a>
-</div>
+    <a href="https://github.com/vasundharapandey/APS/blob/main/codes/pq.cpp">PriorityQueue</a></div>
 
 ### 8. Delivery Route Optimization
 
@@ -203,8 +203,7 @@ Optimize delivery routes for orders.
      **Space Complexity**: O(V^2)
   - **Approach**: Model the delivery locations and routes as a weighted graph, where vertices represent locations and edges represent routes with associated costs (time or distance). Apply Dijkstra’s algorithm to find the shortest paths from the warehouse to delivery points, optimizing routes to reduce delivery time and cost.
    <div class="codes">Codes
-    <a href="https://github.com/muzixing/graph_algorithm/blob/master/Dijkstra(single%20source%20shortest%20path).cpp">Dijstras</a>
-</div>
+    <a href="https://github.com/muzixing/graph_algorithm/blob/master/Dijkstra(single%20source%20shortest%20path).cpp">Dijstras</a></div>
 
 ### 9. Customer Support Chat
 
