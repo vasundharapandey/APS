@@ -25,11 +25,34 @@
 
 Providing a seamless and efficient shopping experience is crucial for retaining customers and staying competitive. Nykaa, a leading e-commerce platform for beauty and wellness products, continually seeks innovative ways to enhance its user experience. The focus is on improving various business use cases such as product search, filtering, inventory management, dynamic pricing, and shopping bag functionality. By leveraging efficient algorithms and data structures, we can significantly enhance the performance and responsiveness of Nykaa's platform, ensuring a delightful and hassle-free shopping experience for its users. The motivation behind this project stems from the need to address common challenges in e-commerce platforms, such as slow search results, inefficient inventory management, and suboptimal pricing strategies. Nykaa's vast product catalog and high user traffic demand robust solutions to maintain a competitive edge and ensure customer satisfaction.
 
+Conducting a market analysis for Nykaa involves understanding its position in the beauty industry, customer demographics, competitive landscape, and market trends. Here’s a detailed breakdown:
+
+### Market Analysis for Nykaa
+
+ **Industry:**
+    The global beauty and wellness market is growing, driven by increasing disposable income, changing lifestyle trends, and a growing focus on personal grooming. Online beauty sales have been rising steadily, with more consumers preferring the convenience of shopping for cosmetics and skincare products online.  Nykaa has established a strong online presence in India, offering a wide range of products from international and local brands. It attracts a diverse customer base, including millennials and Gen Z, who are heavy consumers of beauty products and are increasingly deficient in attention span. Longer wait times lead to lost sales.Competitors include both online and offline retailers like Amazon, Sephora, and local beauty stores. Nykaa differentiates itself through a curated selection of products, exclusive launches, and a strong focus on customer experience.
+### How DSA helps
+
+Now, let’s explore how the use of Data Structures and Algorithms (DSA) can enhance the user experience on Nykaa’s makeup application:
+
+1. **Search and Navigation Optimization:**
+   -Data Structures: Implementing efficient data structures like Hash Tables for fast product searches and retrieval can enhance user experience by reducing search times and improving navigation.
+
+2.  **Data Structures:** Storing and managing user profiles and product metadata using appropriate data structures (e.g., Trees for recommendation engines) can improve recommendation accuracy and responsiveness.
+
+3. **Inventory Management:** Using data structures such as Priority Queues or Balanced Trees can optimize inventory management by ensuring efficient stock replenishment, minimizing out-of-stock situations, and improving order fulfillment.
+
+4. **Performance Optimization:**
+   - **Algorithms:** Implementing efficient sorting algorithms (e.g., Quicksort, Mergesort) for displaying product lists can enhance application performance, leading to faster load times and smoother user interactions.
+
+
+By leveraging DSA effectively, Nykaa can not only streamline its operations but also deliver a more personalized and seamless shopping experience to its users, thereby enhancing customer satisfaction and loyalty in the competitive beauty e-commerce market.
+
 ## Objectives
 
 The aim is to:
 
-1. Faster overall functioning of app features like search, wishlist to create an enjoyable user experience.
+1. Improve overall functioning of app features like search, wishlist to create an enjoyable user experience.
 2. Optimise wait times and resource management
 3. Provide a smooth and responsive platform to boost customer loyalty.
 
@@ -68,7 +91,7 @@ Let's dive deeper into each use case, elaborating on the algorithms and their ap
     <div class="codes">Codes
     <a href="https://github.com/vasundharapandey/APS/blob/main/codes/Fenwick.cpp">Fenwick</a></div>
 
-### 2. Dynamic Pricing
+### 2. Frequently Changing Prices
 
 **Use Case**: Nykaa adjusts prices based on demand and supply.
 -For example, monsoon will see rise in demand of certain hair care products and they need to be on home page to catch the viewers eye.
@@ -352,6 +375,27 @@ Hash this combined string using SHA-256 to generate the coupon code.Validate and
     <a href="https://github.com/vasundharapandey/APS/blob/main/codes/sha256.cpp">SHA256</a>
 </div>
 
+### 18. Sorting Products 
+Sorting large datasets or product catalog efficiently is needed for features such as sort high to low sort by popularity etc we need different versions of sorting algorithms in place.
+![Merge-sort-example-300px](https://github.com/vasundharapandey/APS/assets/105374701/37ee32af-daf3-4140-b81c-b4d4d062a104)
+
+
+Ensure efficient sorting of large datasets using the Merge Sort algorithm.
+
+- **Algorithm**:
+  - **Merge Sort**:
+    - Divide the array into two halves recursively until each subarray contains a single element.
+    - Merge the sorted subarrays back together in sorted order.
+  
+- **Time Complexity**:
+  - Average Case: O(n log n)
+- **Space Complexity**: O(n) auxiliary space for the merging process.
+ Merge Sort guarantees O(n log n) performance in all cases, making it suitable for sorting large product catalogs efficiently. It maintains stability and is well-suited for handling datasets that do not fit entirely in memory.
+
+<div class="codes">Code Implementation:
+  <a href="https://gist.github.com/Genieliu/1542735">Merge Sort Implementation</a></div>
+
+By utilizing Merge Sort, Nykaa can efficiently manage and display its extensive range of beauty products, ensuring a smooth user experience with consistently fast sorting operations.
 
 ---
 
@@ -362,3 +406,7 @@ Throughout this project, I have learned the importance of selecting appropriate 
 
 ## References
 [1]Alfred V. Aho and Margaret J. Corasick. 1975. Efficient string matching: an aid to bibliographic search. Commun. ACM 18, 6 (June 1975), 333–340. https://doi.org/10.1145/360825.360855
+[2] Steinbach, Michael & Karypis, George & Kumar, Vipin. (2001). Efficient algorithms for creating product catalogs. 
+[3]Sarwar, Badrul & Karypis, George & Konstan, Joseph & Riedl, John. (2000). Analysis of Recommendation Algorithms for E-Commerce. Proceedings of ACM E-Commerce. 1. 10.1145/352871.352887.
+[4]https://medium.com/analytics-and-data/e-commerce-analysis-data-structures-and-applications-6420c4fa65e7
+[5]https://www.geeksforgeeks.org/real-time-application-of-data-structures/
