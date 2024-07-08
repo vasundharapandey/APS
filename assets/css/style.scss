@@ -8,40 +8,25 @@
   h4,
   h5,
   h6 {
-    color: #ffc0cb;
+    color: #FF4162;
   }
   h2 {
     color: #fff;
-    background-color: #ffc0cb;
+    background-color:#FF4162;
     padding: 10px 20px;
     border-radius: 20px;
   }
 }
 .page-header {
-    background-color: #ffc0cb;
+    background-color: #FF4162;
     background-image: none;
 }
-// .codes {
-//     background-color: #ffc0cb;
-//     display: inline-flex;
-//     padding: 12px;
-//     border-radius: 60px;
-//     column-gap: 7px;
-//     color: white;
-//     align-items: center;
-// }
+
 .codes a {
-    color: #ffc0cb;
+    color: #FF4162;
     text-decoration: none;
     background: white;
     padding: 8px;
     border-radius: 25px;
 }
-@media screen and (min-width: 64em) {
-    .main-content {
-        max-width:64rem;
-        padding:2rem 0rem;
-        margin: 0 auto;
-        font-size: 1.1rem
-    }
-}
+
