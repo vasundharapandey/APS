@@ -218,7 +218,9 @@ Recommend products based on user browsing history.
 ### 8. Delivery Route Optimization
 
 Optimize delivery routes for orders.
-![image](https://github.com/vasundharapandey/APS/assets/105374701/48b5d353-cfdd-48f2-94d7-4bdc0471de55)
+![Dijkstra_Animation](https://github.com/vasundharapandey/APS/assets/105374701/decd02c2-0f70-487e-8b6e-f246415e79b8)
+
+
 -Minimize delivery time and cost by finding the shortest routes.
 - **Algorithm**:
   - **Dijkstra’s Algorithm**: A graph algorithm used for finding the shortest paths between nodes. Finds the shortest delivery routes in a weighted graph.
@@ -405,8 +407,8 @@ Throughout this project, I have learned the importance of selecting appropriate 
 
 
 ## References
-[1]Alfred V. Aho and Margaret J. Corasick. 1975. Efficient string matching: an aid to bibliographic search. Commun. ACM 18, 6 (June 1975), 333–340. https://doi.org/10.1145/360825.360855
-[2] Steinbach, Michael & Karypis, George & Kumar, Vipin. (2001). Efficient algorithms for creating product catalogs. 
-[3]Sarwar, Badrul & Karypis, George & Konstan, Joseph & Riedl, John. (2000). Analysis of Recommendation Algorithms for E-Commerce. Proceedings of ACM E-Commerce. 1. 10.1145/352871.352887.
-[4]https://medium.com/analytics-and-data/e-commerce-analysis-data-structures-and-applications-6420c4fa65e7
-[5]https://www.geeksforgeeks.org/real-time-application-of-data-structures/
+-[1]Alfred V. Aho and Margaret J. Corasick. 1975. Efficient string matching: an aid to bibliographic search. Commun. ACM 18, 6 (June 1975), 333–340. https://doi.org/10.1145/360825.360855
+-[2] Steinbach, Michael & Karypis, George & Kumar, Vipin. (2001). Efficient algorithms for creating product catalogs. 
+-[3]Sarwar, Badrul & Karypis, George & Konstan, Joseph & Riedl, John. (2000). Analysis of Recommendation Algorithms for E-Commerce. Proceedings of ACM E-Commerce. 1. 10.1145/352871.352887.
+-[4]https://medium.com/analytics-and-data/e-commerce-analysis-data-structures-and-applications-6420c4fa65e7
+-[5]https://www.geeksforgeeks.org/real-time-application-of-data-structures/
